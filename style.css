@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.851); /* Background hitam transparan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
